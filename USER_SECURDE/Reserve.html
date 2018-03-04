@@ -1,0 +1,117 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<!-- Custom Theme files -->
+<!-- Bootstrap core CSS -->
+<link href="/bootstrap5/web/css/font-awesome.css" rel="stylesheet"> 
+<link href="/bootstrap5/web/css/wickedpicker.css" rel="stylesheet" type='text/css' media="all" />
+<link href="/bootstrap5/web/css/style.css" rel='stylesheet' type='text/css' />
+<!--fonts--> 
+<link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+ <!-- Bootstrap core CSS -->
+    <link href="/bootstrap2/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/bootstrap2/css/blog-post.css" rel="stylesheet">
+
+<!--//fonts--> 
+</head>
+<body>
+
+ <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="Pampets.html">Pampets
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item  active">
+              <a class="nav-link" href="Buy.html">Buy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Logout.html">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!--background-->
+<h1> Reservation </h1>
+    <div class="bg-agile">
+	<div class="book-reservation">
+			<form action="#" method="post">
+					<div class="form-date-w3-agileits">
+						<label><i class="fa fa-user" aria-hidden="true"></i> Name :</label>
+						<input type="text" name="name" placeholder="Your name" required=""/>
+					</div>
+					<div class="form-date-w3-agileits">
+						<label><i class="fa fa-envelope" aria-hidden="true"></i> Contact Number :</label>
+						<input type="email" name="email" placeholder="Your number" required="" />
+					</div>
+					 <div class="form-date-w3-agileits">
+						<label><i class="fa fa-calendar" aria-hidden="true"></i> Pickup Date :</label>
+						<input  id="datepicker1" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
+					</div>
+					<div class="form-time-w3layouts">
+							<label><i class="fa fa-clock-o" aria-hidden="true"></i> Time :</label>
+							<input type="text" name="Time" class="timepicker form-control" value="Hrs:Min">	
+					</div>
+					
+					<div class="form-left-agileits-w3layouts bottom-w3ls">
+							<label><i class="fa fa-home" aria-hidden="true"></i> Choose Mode of payment :</label>
+							<select class="form-control">
+								<option>Cash</option>
+								<option>Credit Card</option>
+								<option>Check</option>
+							</select>
+					</div>
+					<div class="form-left-agileits-w3layouts">
+							<label><i class="fa fa-users" aria-hidden="true"></i> Other message</label>
+							<input type="email" name="email" placeholder="Your message" required="" />
+                    </div>
+					<div class="make">
+						  <input type="submit" value="Confirm">
+					</div>
+			</form>
+		</div>
+   </div>
+   <!--copyright-->
+			
+		<!--//copyright-->
+		<script type="text/javascript" src="/bootstrap5/web/js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="/bootstrap5/web/js/wickedpicker.js"></script>
+			<script type="text/javascript">
+				$('.timepicker').wickedpicker({twentyFour: false});
+			</script>
+
+
+		<!-- Calendar -->
+				<link rel="stylesheet" href="/bootstrap5/web/css/jquery-ui.css" />
+				<script src="/bootstrap5/web/js/jquery-ui.js"></script>
+				  <script>
+						  $(function() {
+							$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
+						  });
+				  </script>
+			<!-- //Calendar -->
+			
+
+</body>
+</html>
